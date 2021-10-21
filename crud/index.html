@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organization 🗂️</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/55d4c5e554.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/55d4c5e554.js" crossorigin="anonymous"></script>
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!----------- HEADER ------------>
+    <header class="header">
+        <h1 class="title">Organization</h1>
+        <div class="nigth_modo">
+            <i class="fas fa-adjust"></i>
+        </div>
+    </header>
+    <!----------- HEADER ------------>
+
+    <main class="main">
+        <!----------- MAIN ------------>
+        <div class="area-table">
+            <!--TAULA  -->
+            <table class="crud-table">
+                <thead>
+                    <tr>
+                        <th>Deberes</th>
+                        <th>Data</th>
+                        <th>Dificultad</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <template class="plantilla">
+                <tr>
+                    <td class="deberes">Mates</td>
+                    <td class="data">2021-10-29</td>
+                    <td class="dificultad">🟩</td>
+                    <td>
+                        <button class="edit">Editar</button>
+                    </td>
+                    <td>
+                        <button class="delete">Eliminar</button>
+                    </td>
+                </tr>
+            </template>
+            <br><br><br>
+            <hr>
+            <!--FORMULARI A ENVIAR  -->
+            <form action="" class="crud-form">
+                <input type="text" name="deberes" placeholder="Deberes" required>
+                <input type="date" name="data" placeholder="Data" required>
+                <select name="dificultad" required>
+                    <option value="🟩">🟩</option>
+                    <option value="🟨">🟨</option>
+                    <option value="🟥">🟥</option>
+                </select>
+                <input type="submit" value="Enviar" class="enviar">
+                <input type="hidden" name="id">      
+            </form>
+        </div>
+
+        <!----------- MAIN ------------>
+    </main>
+
+    <!-- Llibreria de Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- JAVASCRIPT -->
+    <script src='js/main.js'></script>
+</body>
+</html>

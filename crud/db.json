@@ -1,0 +1,28 @@
+{
+  "assignatures": [
+    {
+      "deberes": "1",
+      "data": "2021-10-26",
+      "dificultad": "🟩",
+      "id": 2
+    },
+    {
+      "deberes": "2",
+      "data": "2021-10-25",
+      "dificultad": "🟨",
+      "id": 3
+    },
+    {
+      "deberes": "3",
+      "data": "2021-10-26",
+      "dificultad": "🟥",
+      "id": 4
+    },
+    {
+      "deberes": "4",
+      "data": "2021-10-26",
+      "dificultad": "🟩",
+      "id": 5
+    }
+  ]
+}
