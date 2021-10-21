@@ -1,2 +1,2 @@
 # Gestor-de-tareas
-Gestor de tareas (con la librería Axios)
+Gestor de tareas (con la librería Axios & API Rest)
